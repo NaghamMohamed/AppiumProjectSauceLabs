@@ -1,0 +1,9 @@
+{
+  "platformName": "Android",
+  "appium:deviceName": "Galaxy A52",
+  "appium:app": "C:\\Users\\MadyN2\\Downloads\\Android.SauceLabs.Mobile.Sample.app.2.2.0.apk",
+  "appium:platformVersion": "12",
+  "appium:appWaitActivity": "com.swaglabsmobileapp.MainActivity",
+  "appium:automationName": "UiAutomator2"
+}
+C:\Users\MadyN2\IdeaProjects\AppiumProjectSauceLabs\src\test\resources\TestDataFiles\Android.SauceLabs.Mobile.Sample.app.2.2.0.apk

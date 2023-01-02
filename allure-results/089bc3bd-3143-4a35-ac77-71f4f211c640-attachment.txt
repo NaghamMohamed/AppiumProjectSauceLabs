@@ -1,0 +1,1225 @@
+[INFO ] 2023-01-02 20:42:22.789 [main] ReportManager - 
+################################################################################################################################################
+Detected SHAFT Engine Version: "SHAFT Engine v6.4.20221225"
+################################################################################################################################################
+[INFO ] 2023-01-02 20:42:24.728 [main] ReportManager - Loaded OpenCV "opencv_java460".
+[INFO ] 2023-01-02 20:42:25.065 [main] Utils - [TestNG] Running:
+  C:\Users\MadyN2\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+[INFO ] 2023-01-02 20:42:25.109 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"com.shaft.tools.io.reporting.ReportHelper.setupActivities"
+################################################################################################################################################
+[INFO ] 2023-01-02 20:42:25.142 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-01-02 20:42:25.389 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-01-02 20:42:26.239 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-01-02 20:42:26.261 [main] ReportManager - Initializing Custom Properties...
+[INFO ] 2023-01-02 20:42:26.396 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"OrderingTest.setUp"
+################################################################################################################################################
+[DEBUG] 2023-01-02 20:42:26.730 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2023-01-02 20:42:26.743 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-01-02 20:42:26.744 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-01-02 20:42:26.775 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1b841e7d
+[DEBUG] 2023-01-02 20:42:26.860 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-01-02 20:42:26.860 [main] PlatformDependent0 - Java version: 17
+[DEBUG] 2023-01-02 20:42:26.862 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-01-02 20:42:26.863 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-01-02 20:42:26.864 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-01-02 20:42:26.866 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-01-02 20:42:26.867 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-01-02 20:42:26.868 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-01-02 20:42:26.869 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @41829f7b
+[DEBUG] 2023-01-02 20:42:26.871 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-01-02 20:42:26.871 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-01-02 20:42:26.872 [main] PlatformDependent - maxDirectMemory: 4255121408 bytes (maybe)
+[DEBUG] 2023-01-02 20:42:26.872 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\MadyN2\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-01-02 20:42:26.873 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-01-02 20:42:26.873 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-01-02 20:42:26.874 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-01-02 20:42:26.875 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-01-02 20:42:26.877 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-01-02 20:42:26.877 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-01-02 20:42:26.920 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-01-02 20:42:26.995 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-01-02 20:42:26.995 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-01-02 20:42:27.275 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-01-02 20:42:27.276 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-01-02 20:42:27.374 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2023-01-02 20:42:27.404 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-01-02 20:42:27.404 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-01-02 20:42:27.518 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[DEBUG] 2023-01-02 20:42:27.518 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[DEBUG] 2023-01-02 20:42:27.518 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-01-02 20:42:27.518 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-01-02 20:42:27.519 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-01-02 20:42:27.519 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-01-02 20:42:27.519 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-01-02 20:42:27.519 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-01-02 20:42:27.519 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-01-02 20:42:27.519 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-01-02 20:42:27.519 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-01-02 20:42:27.519 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-01-02 20:42:27.545 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-01-02 20:42:27.545 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-01-02 20:42:27.545 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-01-02 20:42:27.976 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 16648 (auto-detected)
+[DEBUG] 2023-01-02 20:42:27.980 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-01-02 20:42:27.980 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-01-02 20:42:27.997 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-01-02 20:42:27.999 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-01-02 20:42:28.050 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 7c:b2:7d:ff:fe:c4:44:c9 (auto-detected)
+[DEBUG] 2023-01-02 20:42:28.140 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-01-02 20:42:28.141 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-01-02 20:42:28.141 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@548767a4
+[DEBUG] 2023-01-02 20:42:28.158 [AsyncHttpClient-1-2] NettyConnectListener - Using new Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to '/session'
+[DEBUG] 2023-01-02 20:42:28.181 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-01-02 20:42:28.181 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-01-02 20:42:28.181 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-01-02 20:42:28.182 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-01-02 20:42:40.375 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-01-02 20:42:40.376 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+X-Idempotency-Key: e0ec5585-ae6d-4d56-81cd-3fe19b351d68
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 488
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"4b1-StCPPToZ7dcFGGisnpGrlYA0iJc"
+Date: Mon, 02 Jan 2023 18:42:40 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 1201
+
+[DEBUG] 2023-01-02 20:42:40.384 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:40.435 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://localhost:4723 : 1
+[DEBUG] 2023-01-02 20:42:40.576 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:40.577 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:45.471 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 61
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-13E17lp74GQl2fN4maVlDDoEXp8"
+Date: Mon, 02 Jan 2023 18:42:45 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:45.472 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:45.489 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000028/displayed'
+[DEBUG] 2023-01-02 20:42:45.490 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for GET '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000028/displayed'
+[DEBUG] 2023-01-02 20:42:45.520 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000028/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Mon, 02 Jan 2023 18:42:45 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:45.521 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:45.522 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:45.522 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:45.581 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 61
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-ObCNq/jSCPVRDOKXf3QzLl27If8"
+Date: Mon, 02 Jan 2023 18:42:45 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:45.583 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:45.594 [Forwarding sendKeysToElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000025/value'
+[DEBUG] 2023-01-02 20:42:45.595 [Forwarding sendKeysToElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000025/value'
+[DEBUG] 2023-01-02 20:42:46.165 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000025/value HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 211
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 02 Jan 2023 18:42:46 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:46.165 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:46.167 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:46.167 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:46.876 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 130
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-4NojQykfvF0snkRCaCUANod82CY"
+Date: Mon, 02 Jan 2023 18:42:46 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:46.876 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:46.879 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000002a/displayed'
+[DEBUG] 2023-01-02 20:42:46.879 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for GET '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000002a/displayed'
+[DEBUG] 2023-01-02 20:42:46.896 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000002a/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Mon, 02 Jan 2023 18:42:46 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:46.896 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:46.897 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:46.898 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:46.942 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 61
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-13E17lp74GQl2fN4maVlDDoEXp8"
+Date: Mon, 02 Jan 2023 18:42:46 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:46.942 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:46.944 [Forwarding sendKeysToElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000028/value'
+[DEBUG] 2023-01-02 20:42:46.944 [Forwarding sendKeysToElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000028/value'
+[DEBUG] 2023-01-02 20:42:47.007 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000028/value HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 201
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 02 Jan 2023 18:42:47 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:47.007 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:47.009 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:47.009 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:47.596 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 130
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-4NojQykfvF0snkRCaCUANod82CY"
+Date: Mon, 02 Jan 2023 18:42:47 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:47.596 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:47.598 [Forwarding clickElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000002a/click'
+[DEBUG] 2023-01-02 20:42:47.598 [Forwarding clickElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000002a/click'
+[DEBUG] 2023-01-02 20:42:47.650 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000002a/click HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 02 Jan 2023 18:42:47 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:47.650 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[INFO ] 2023-01-02 20:42:47.789 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution:	"1 out of 1" test cases in the current suite
+Test Method:		"OrderingTest.TC05_completeOrderTest"
+################################################################################################################################################
+[DEBUG] 2023-01-02 20:42:47.799 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:47.799 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:48.291 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 141
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-d9CP+4tSIES8skRmwdE/Czv3C6s"
+Date: Mon, 02 Jan 2023 18:42:48 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:48.291 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:48.293 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000005a/displayed'
+[DEBUG] 2023-01-02 20:42:48.294 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for GET '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000005a/displayed'
+[DEBUG] 2023-01-02 20:42:49.591 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000005a/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Mon, 02 Jan 2023 18:42:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:49.592 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:49.593 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:49.593 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:49.798 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 141
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-d9CP+4tSIES8skRmwdE/Czv3C6s"
+Date: Mon, 02 Jan 2023 18:42:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:49.799 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:49.804 [Forwarding clickElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000005a/click'
+[DEBUG] 2023-01-02 20:42:49.805 [Forwarding clickElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000005a/click'
+[DEBUG] 2023-01-02 20:42:49.905 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff0000005a/click HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 02 Jan 2023 18:42:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:49.905 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:49.907 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:49.907 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:50.153 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 158
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-YQ66hu1LqHSXoOKKlDW8sORRHic"
+Date: Mon, 02 Jan 2023 18:42:50 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:50.155 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:50.159 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000051/displayed'
+[DEBUG] 2023-01-02 20:42:50.160 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for GET '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000051/displayed'
+[DEBUG] 2023-01-02 20:42:50.564 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000051/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Mon, 02 Jan 2023 18:42:50 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:50.564 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:50.566 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:50.566 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:50.776 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 158
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-YQ66hu1LqHSXoOKKlDW8sORRHic"
+Date: Mon, 02 Jan 2023 18:42:50 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:50.777 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:50.781 [Forwarding clickElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000051/click'
+[DEBUG] 2023-01-02 20:42:50.782 [Forwarding clickElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000051/click'
+[DEBUG] 2023-01-02 20:42:50.876 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff00000051/click HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 02 Jan 2023 18:42:50 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:50.876 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:50.883 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:50.883 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:51.023 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 92
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"37d-40O/YY+KW9j6H35WRTUEXXdfhtw"
+Date: Mon, 02 Jan 2023 18:42:51 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 893
+
+[DEBUG] 2023-01-02 20:42:51.024 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:51.436 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://localhost:4723 : 1
+[DEBUG] 2023-01-02 20:42:51.548 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:51.549 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:52.272 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 92
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-Ht5wTZ+lPwd5mn6VdX8OfE+GtzY"
+Date: Mon, 02 Jan 2023 18:42:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:52.273 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:52.277 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000a4/displayed'
+[DEBUG] 2023-01-02 20:42:52.277 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for GET '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000a4/displayed'
+[DEBUG] 2023-01-02 20:42:52.673 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000a4/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Mon, 02 Jan 2023 18:42:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:52.674 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:52.680 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:52.680 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:53.031 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 92
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-Ht5wTZ+lPwd5mn6VdX8OfE+GtzY"
+Date: Mon, 02 Jan 2023 18:42:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:53.032 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:53.036 [Forwarding clickElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000a4/click'
+[DEBUG] 2023-01-02 20:42:53.036 [Forwarding clickElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000a4/click'
+[DEBUG] 2023-01-02 20:42:53.151 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000a4/click HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 02 Jan 2023 18:42:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:53.152 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:53.157 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:53.158 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:53.407 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 63
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-Ith+iwJ7Z8Pa3Av4yGsr/EI6e3Q"
+Date: Mon, 02 Jan 2023 18:42:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:53.407 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:53.408 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c0/displayed'
+[DEBUG] 2023-01-02 20:42:53.408 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for GET '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c0/displayed'
+[DEBUG] 2023-01-02 20:42:54.309 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c0/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Mon, 02 Jan 2023 18:42:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:54.309 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:54.313 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:54.313 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:54.414 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 63
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-Ith+iwJ7Z8Pa3Av4yGsr/EI6e3Q"
+Date: Mon, 02 Jan 2023 18:42:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:54.414 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:54.416 [Forwarding sendKeysToElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c0/value'
+[DEBUG] 2023-01-02 20:42:54.416 [Forwarding sendKeysToElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c0/value'
+[DEBUG] 2023-01-02 20:42:54.509 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c0/value HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 141
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 02 Jan 2023 18:42:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:54.509 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:54.511 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:54.511 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:55.061 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 62
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-rLM8n31tAXDN9JR3TaVRxDTfE88"
+Date: Mon, 02 Jan 2023 18:42:55 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:55.063 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:55.065 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c3/displayed'
+[DEBUG] 2023-01-02 20:42:55.065 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for GET '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c3/displayed'
+[DEBUG] 2023-01-02 20:42:55.089 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c3/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Mon, 02 Jan 2023 18:42:55 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:55.090 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:55.093 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:55.093 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:55.186 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 62
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-rLM8n31tAXDN9JR3TaVRxDTfE88"
+Date: Mon, 02 Jan 2023 18:42:55 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:55.187 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:55.191 [Forwarding sendKeysToElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c3/value'
+[DEBUG] 2023-01-02 20:42:55.191 [Forwarding sendKeysToElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c3/value'
+[DEBUG] 2023-01-02 20:42:55.770 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c3/value HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 121
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 02 Jan 2023 18:42:55 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:55.770 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:55.774 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:55.774 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:56.384 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 73
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-MdrpdD431p2G4W5d4IZtegWwE8E"
+Date: Mon, 02 Jan 2023 18:42:56 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:56.385 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:56.386 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c6/displayed'
+[DEBUG] 2023-01-02 20:42:56.387 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for GET '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c6/displayed'
+[DEBUG] 2023-01-02 20:42:56.440 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c6/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Mon, 02 Jan 2023 18:42:56 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:56.440 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:56.442 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:56.442 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:56.530 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 73
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-MdrpdD431p2G4W5d4IZtegWwE8E"
+Date: Mon, 02 Jan 2023 18:42:56 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:56.530 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:56.531 [Forwarding sendKeysToElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c6/value'
+[DEBUG] 2023-01-02 20:42:56.531 [Forwarding sendKeysToElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c6/value'
+[DEBUG] 2023-01-02 20:42:57.113 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000c6/value HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 121
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 02 Jan 2023 18:42:57 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:57.113 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:57.115 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:57.115 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:57.749 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 61
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-9Kk7clau0RxJ8F9X3tFfK6EYZMQ"
+Date: Mon, 02 Jan 2023 18:42:57 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:57.749 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:57.750 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000cd/displayed'
+[DEBUG] 2023-01-02 20:42:57.750 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for GET '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000cd/displayed'
+[DEBUG] 2023-01-02 20:42:57.786 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000cd/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Mon, 02 Jan 2023 18:42:57 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:57.786 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:57.788 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:57.788 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:57.882 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 61
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-9Kk7clau0RxJ8F9X3tFfK6EYZMQ"
+Date: Mon, 02 Jan 2023 18:42:57 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:57.883 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:57.886 [Forwarding clickElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000cd/click'
+[DEBUG] 2023-01-02 20:42:57.886 [Forwarding clickElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000cd/click'
+[DEBUG] 2023-01-02 20:42:57.992 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000cd/click HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 02 Jan 2023 18:42:57 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:57.993 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:58.000 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:58.000 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:58.137 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 177
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"37d-40O/YY+KW9j6H35WRTUEXXdfhtw"
+Date: Mon, 02 Jan 2023 18:42:58 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 893
+
+[DEBUG] 2023-01-02 20:42:58.138 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:58.653 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:58.653 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:59.484 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 177
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-75PuV37w2ptCMxW9Dn3neKMPw3g"
+Date: Mon, 02 Jan 2023 18:42:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:59.485 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:59.486 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000fd/displayed'
+[DEBUG] 2023-01-02 20:42:59.486 [Forwarding isElementDisplayed on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for GET '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000fd/displayed'
+[DEBUG] 2023-01-02 20:42:59.516 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000fd/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Mon, 02 Jan 2023 18:42:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:42:59.516 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:59.517 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:59.518 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:59.792 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 177
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-75PuV37w2ptCMxW9Dn3neKMPw3g"
+Date: Mon, 02 Jan 2023 18:42:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 137
+
+[DEBUG] 2023-01-02 20:42:59.793 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:59.797 [Forwarding getElementText on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000fd/text'
+[DEBUG] 2023-01-02 20:42:59.797 [Forwarding getElementText on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for GET '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000fd/text'
+[DEBUG] 2023-01-02 20:42:59.850 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5dfe5f44-881d-40b8-8397-62a83332be48/element/00000000-0000-23cf-ffff-ffff000000fd/text HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"51-er7JjXk1zdWlGyNnhj+/XFGTECs"
+Date: Mon, 02 Jan 2023 18:42:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 81
+
+[DEBUG] 2023-01-02 20:42:59.850 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[DEBUG] 2023-01-02 20:42:59.866 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:42:59.867 [Forwarding findElement on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for POST '/session/5dfe5f44-881d-40b8-8397-62a83332be48/element'
+[DEBUG] 2023-01-02 20:43:05.521 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5dfe5f44-881d-40b8-8397-62a83332be48/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Length: 188
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"37d-40O/YY+KW9j6H35WRTUEXXdfhtw"
+Date: Mon, 02 Jan 2023 18:43:05 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 893
+
+[DEBUG] 2023-01-02 20:43:05.522 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[INFO ] 2023-01-02 20:43:05.537 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Current Method log: TC05_completeOrderTest"
+[INFO ] 2023-01-02 20:43:05.582 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"OrderingTest.tearDown"
+################################################################################################################################################
+[DEBUG] 2023-01-02 20:43:05.585 [Forwarding quit on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using pooled Channel '[id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]' for 'DELETE' to 'http://localhost:4723/session/5dfe5f44-881d-40b8-8397-62a83332be48'
+[DEBUG] 2023-01-02 20:43:05.585 [Forwarding quit on session 5dfe5f44-881d-40b8-8397-62a83332be48 to remote] NettyRequestSender - Using open Channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723] for DELETE '/session/5dfe5f44-881d-40b8-8397-62a83332be48'
+[DEBUG] 2023-01-02 20:43:06.430 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/5dfe5f44-881d-40b8-8397-62a83332be48 HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.7.2 (java windows))
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 02 Jan 2023 18:43:06 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+content-length: 14
+
+[DEBUG] 2023-01-02 20:43:06.430 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:4723 for channel [id: 0x635cb1a3, L:/127.0.0.1:54929 - R:localhost/127.0.0.1:4723]
+[INFO ] 2023-01-02 20:43:06.442 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"com.shaft.tools.io.reporting.ReportHelper.teardownActivities"
+################################################################################################################################################
+[INFO ] 2023-01-02 20:43:06.466 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-01-02 20:43:06.472 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Issues log CSV: 20230102-204306"
+[INFO ] 2023-01-02 20:43:06.473 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Execution log"
+[INFO ] 2023-01-02 20:43:06.473 [main] ReportManager - 
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: "SHAFT Engine v6.4.20221225"
+SHAFT Engine is licensed under the MIT License: [https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
+[INFO ] 2023-01-02 20:43:06.474 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-01-02 20:43:06.474 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
